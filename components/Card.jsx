@@ -8,10 +8,9 @@ export function Card({fullName, jobTitle, photo }) {
 
                 <p className="font-semibold text-sm lg:text-lg">{fullName}</p> 
             </div>
-
-            <div className="">
-                <p className="font-ptserif text-[10px] lg:text-xs font-normal uppercase [writing-mode:vertical-lr] whitespace-nowrap">{jobTitle}</p>
-            </div>    
+            
+            <p className="font-ptserif text-[10px] lg:text-xs font-normal uppercase [writing-mode:vertical-lr] whitespace-nowrap">{jobTitle}</p>
+                
         </section>
     )
 }
